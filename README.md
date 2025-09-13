@@ -56,7 +56,12 @@ Flight data analysis project that integrates with FlightRadar24 API to track and
    uv run jupyter lab
    ```
 
-2. **Open the main analysis notebook**
+2. **If you just want to check the results**
+
+   - Navigate to `Planes_light.ipynb` in Jupyterlab
+   - It's the same as `Planes.ipynb` but without the map, to make it lighter   
+
+3. **Open the main analysis notebook**
    - Navigate to `Planes.ipynb` in JupyterLab
    - Follow the notebook cells to:
      - Set up API authentication
