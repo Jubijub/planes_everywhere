@@ -1,0 +1,43 @@
+[project]
+name = "planes-everywhere"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "elevation>=1.1.3",
+    "folium>=0.20.0",
+    "fr24sdk>=0.1.0",
+    "ipython>=9.4.0",
+    "ipywidgets>=8.1.7",
+    "jupyterlab>=4.4.6",
+    "pandas>=2.3.2",
+    "plotly>=6.3.0",
+    "python-dotenv>=1.1.1",
+    "rasterio>=1.4.3",
+    "requests>=2.32.5",
+]
+
+[dependency-groups]
+dev = [
+    "catppuccin-jupyterlab>=0.2.4",
+    "jupyter-ruff>=0.3.0",
+    "ruff>=0.12.10",
+]
+
+[tool.ruff]
+lint.select = ["I"] # Enable import sorting
+
+[tool.ruff.lint.isort]
+# Configure import sorting behavior
+known-first-party = ["mypackage"]  # Your package names
+known-third-party = ["pandas", "numpy", "requests"]  # Third-party packages
+section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
+split-on-trailing-comma = true
+force-single-line = false
+force-sort-within-sections = true
+combine-as-imports = true
+
+[tool.setuptools.packages.find]
+include = ["planes_utils*"]
+exclude = ["data*", "tests*"]

@@ -1,0 +1,41 @@
+[
+  {
+    "manufacturer_code": "AIRBUS HELICOPTERS-HARBIN",
+    "model_no": "EC-175",
+    "model_name": null,
+    "model_version": null,
+    "engine_count": "2",
+    "engine_type": "Turboprop/Turboshaft",
+    "aircraft_desc": "Helicopter",
+    "description": "H2T",
+    "wtc": "M",
+    "tdesig": "EC75",
+    "wtg": "G"
+  },
+  {
+    "manufacturer_code": "AIRBUS HELICOPTERS-HARBIN",
+    "model_no": "Z-15",
+    "model_name": null,
+    "model_version": null,
+    "engine_count": "2",
+    "engine_type": "Turboprop/Turboshaft",
+    "aircraft_desc": "Helicopter",
+    "description": "H2T",
+    "wtc": "M",
+    "tdesig": "EC75",
+    "wtg": "G"
+  },
+  {
+    "manufacturer_code": "AIRBUS HELICOPTERS-HARBIN",
+    "model_no": "H-175",
+    "model_name": null,
+    "model_version": null,
+    "engine_count": "2",
+    "engine_type": "Turboprop/Turboshaft",
+    "aircraft_desc": "Helicopter",
+    "description": "H2T",
+    "wtc": "M",
+    "tdesig": "EC75",
+    "wtg": "G"
+  }
+]
